@@ -424,7 +424,7 @@ typedef struct {
     /* \brief Stores higher 8 Bits of DSTBIDX */
     int8_t  destBIdxExt;
 
-} __attribute__((packed))
+} __attribute__((packed, aligned(4)))
 EDMACCPaRAMEntry;
 
 /**
