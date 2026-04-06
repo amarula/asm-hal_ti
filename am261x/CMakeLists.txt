@@ -17,6 +17,8 @@ if(CONFIG_SOC_SERIES_AM261X)
 
   zephyr_library_sources(
     ${AM261X_SOURCE_DIR}/drivers/edma/v0/edma.c
+    ${AM261X_SOURCE_DIR}/drivers/flsopskd/v0/flsopskd_v0.c
+    ${AM261X_SOURCE_DIR}/drivers/flsopskd/v0/fota_fw_arr.c
     )
 
 endif() # CONFIG_SOC_SERIES_AM261X
