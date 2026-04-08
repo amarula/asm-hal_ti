@@ -56,7 +56,6 @@ extern "C"
 
 #include <stdio.h>
 #include <stdbool.h>
-#include <kernel/dpl/HwiP.h>
 #include <drivers/hw_include/cslr_flsopskd.h>
 
 /**

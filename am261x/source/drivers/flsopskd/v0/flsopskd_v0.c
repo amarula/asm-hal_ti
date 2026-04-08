@@ -306,7 +306,7 @@ int32_t FLSOPSKD_deinit(FLSOPSKD_Handle *pHandle)
     return status;
 }
 
-int32_t FLSOPSKD_busyPoll(FLSOPSKD_Handle *pHandle)
+__attribute__((__weak__)) int32_t FLSOPSKD_busyPoll(FLSOPSKD_Handle *pHandle)
 {
     int32_t status = SystemP_FAILURE;
     uint32_t start_ticks = 0;
