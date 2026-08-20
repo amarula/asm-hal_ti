@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "abd95bb3_709b675d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1039701
+      },
+      "writtenOn": "2026-08-20T14:11:13Z",
+      "side": 1,
+      "message": "I saw this patch for AM263X, I was wondering if the files are identical, maybe we can use just two general files (.c and .h) for both of them in a shared directory? Maybe in a future patch?\n\nAlso, can I ask why DPL is not completely deleted since it is never defined in Zephyr builds? (I know this comes from the patch on AM261X)",
+      "revId": "ac6ec6ab672a04bc5263ead035e14bab7d326098",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
